@@ -795,7 +795,7 @@ jobs:
           echo "✅ Comprehensive deployment report generated"
           
       - name: Upload final deployment artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: deployment-reports
           path: |
